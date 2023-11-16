@@ -35,5 +35,5 @@ npm run build:prod
 ##### 微众银行多方大数据隐私计算平台WeDPR-PPC已开放核心功能体验，提供核心安全多方计算引擎和常用隐私计算应用模板，助力合作伙伴在可快速迭代的实验环境中，探索隐私计算的实际效果。欢迎通过“小助手”申请体验：
 
 
- ![Alt text](clip_image002.jpg)
+ ![image](https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/FISCO-BCOS/deps/images/clip_image002.jpg)
 
