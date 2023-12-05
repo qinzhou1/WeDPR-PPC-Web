@@ -135,11 +135,12 @@ module.exports = {
       diffPassword: 'Those passwords did not match', // 两次输入密码不一致
       authCode: 'Please enter the number and letter in the picture', // 请输入验证码
       oldPassword: 'Please enter the old password',
-      newPassword: 'Please enter the new password'
+      newPassword: 'Please enter the new password',
+      cannotbesame: 'new password can not be the same with the old password'
     },
     tooltip: {
       username: 'Username must be between 3 and 18 characters long, with digits, letter, _, - only', // 用户名长度3～18个字符，支持数字、大小写字母、下划线_、连接符-
-      password: 'Password must be between 6 and 18 characters long, containing at least 1 digit and 1 letter', // 密码长度6~18个字符，支持数字、大小写字母、特殊字符~!@#$%^&*()，至少包含一个数字和字母
+      password: 'Password must be between 8 and 18 characters long, contains at least one number and one uppercase letter, one lowercase letter, and one special character', // 密码长度6~18个字符，支持数字、大小写字母、特殊字符~!@#$%^&*()，至少包含一个数字和字母
       availableTimes: 'Available times of invitation code, 1-128 is ok'
     },
     message: {

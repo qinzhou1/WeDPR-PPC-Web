@@ -238,7 +238,13 @@ export default {
           })
           return false
         }
-
+        if (this.changePasswordForm.oldPassword === this.changePasswordForm.newPassword) {
+          this.$message({
+            type: 'error',
+            message: this.$t('user.rules.cannotbesame')
+          })
+          return
+        }
         var username = getUsername()
 
         const params = {
