@@ -22,6 +22,7 @@
         />
       </el-menu>
     </el-scrollbar>
+    <div v-if="!isCollapse" class="copyright">本平台由微众区块链提供技术支持</div>
   </div>
 </template>
 
@@ -34,9 +35,7 @@ import variables from '@/styles/variables.scss'
 export default {
   components: { SidebarItem, Logo },
   computed: {
-    ...mapGetters([
-      'sidebar'
-    ]),
+    ...mapGetters(['sidebar']),
     routes() {
       console.log(this.$router.options.routes)
       return this.$router.options.routes
@@ -59,3 +58,16 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(191, 203, 217);
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  background-color: rgb(48, 65, 86);
+}
+</style>
